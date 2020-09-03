@@ -6,3 +6,19 @@ Offering Test to Project Build Discarder
 Processing test-param
 Offering test-param to Project Build Discarder
 Finished at Thu Sep 03 12:52:21 UTC 2020. 29ms
+Started at Thu Sep 03 13:52:21 UTC 2020
+Processing remote-task
+Offering remote-task to Project Build Discarder
+Processing Test
+Offering Test to Project Build Discarder
+Processing test-param
+Offering test-param to Project Build Discarder
+Finished at Thu Sep 03 13:52:21 UTC 2020. 9ms
+Started at Thu Sep 03 14:52:21 UTC 2020
+Processing remote-task
+Offering remote-task to Project Build Discarder
+Processing Test
+Offering Test to Project Build Discarder
+Processing test-param
+Offering test-param to Project Build Discarder
+Finished at Thu Sep 03 14:52:21 UTC 2020. 1ms
