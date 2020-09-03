@@ -1,22 +1,8 @@
-Started at Thu Sep 03 08:50:56 UTC 2020
-Processing Test
-Offering Test to Project Build Discarder
-Finished at Thu Sep 03 08:50:56 UTC 2020. 3ms
-Started at Thu Sep 03 09:50:56 UTC 2020
-Processing Test
-Offering Test to Project Build Discarder
-Processing test-param
-Offering test-param to Project Build Discarder
-Finished at Thu Sep 03 09:50:56 UTC 2020. 4ms
-Started at Thu Sep 03 10:50:56 UTC 2020
+Started at Thu Sep 03 12:52:21 UTC 2020
+Processing remote-task
+Offering remote-task to Project Build Discarder
 Processing Test
 Offering Test to Project Build Discarder
 Processing test-param
 Offering test-param to Project Build Discarder
-Finished at Thu Sep 03 10:50:56 UTC 2020. 2ms
-Started at Thu Sep 03 11:50:56 UTC 2020
-Processing Test
-Offering Test to Project Build Discarder
-Processing test-param
-Offering test-param to Project Build Discarder
-Finished at Thu Sep 03 11:50:56 UTC 2020. 2ms
+Finished at Thu Sep 03 12:52:21 UTC 2020. 29ms
