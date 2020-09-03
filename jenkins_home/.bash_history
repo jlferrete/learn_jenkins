@@ -11,3 +11,6 @@ ls
 cat script.sh 
 /opt/script.sh 
 exit
+cat script.sh 
+cat /opt/script.sh 
+exit

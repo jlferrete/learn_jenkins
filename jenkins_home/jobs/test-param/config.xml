@@ -7,11 +7,28 @@
     <hudson.model.ParametersDefinitionProperty>
       <parameterDefinitions>
         <hudson.model.StringParameterDefinition>
-          <name>NAME</name>
+          <name>NOMBRE</name>
           <description></description>
           <defaultValue>tom</defaultValue>
           <trim>false</trim>
         </hudson.model.StringParameterDefinition>
+        <hudson.model.ChoiceParameterDefinition>
+          <name>APELLIDO</name>
+          <description></description>
+          <choices class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>gonzalez</string>
+              <string>gomez</string>
+              <string>castro</string>
+              <string>cortes</string>
+            </a>
+          </choices>
+        </hudson.model.ChoiceParameterDefinition>
+        <hudson.model.BooleanParameterDefinition>
+          <name>MOSTRAR</name>
+          <description></description>
+          <defaultValue>true</defaultValue>
+        </hudson.model.BooleanParameterDefinition>
       </parameterDefinitions>
     </hudson.model.ParametersDefinitionProperty>
   </properties>
@@ -24,7 +41,7 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>echo &quot;Hola, $NAME&quot;</command>
+      <command>/opt/script.sh $NOMBRE $APELLIDO $MOSTRAR</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>
