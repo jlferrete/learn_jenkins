@@ -6,3 +6,8 @@ cd tmp
 ls
 cat /tmp/nombre
 exit
+cd opt
+ls
+cat script.sh 
+/opt/script.sh 
+exit
