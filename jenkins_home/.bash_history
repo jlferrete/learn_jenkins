@@ -40,3 +40,8 @@ cd ..
 ls -l
 ls src/test/java/com/mycompany/app/
 exit
+cat /var/jenkins_home/workspace/maven-job/target/my-app-1.0-SNAPSHOT.jar
+ls /var/jenkins_home/workspace/maven-job/target/my-app-1.0-SNAPSHOT.jar
+cd ~/workspace/maven-job
+ls target/surefire-reports/
+exit

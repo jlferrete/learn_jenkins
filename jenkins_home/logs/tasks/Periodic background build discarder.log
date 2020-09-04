@@ -40,3 +40,15 @@ Offering Test to Project Build Discarder
 Processing test-param
 Offering test-param to Project Build Discarder
 Finished at Fri Sep 04 08:01:58 UTC 2020. 13ms
+Started at Fri Sep 04 09:01:58 UTC 2020
+Processing backup-db-to-aws
+Offering backup-db-to-aws to Project Build Discarder
+Processing maven-job
+Offering maven-job to Project Build Discarder
+Processing remote-task
+Offering remote-task to Project Build Discarder
+Processing Test
+Offering Test to Project Build Discarder
+Processing test-param
+Offering test-param to Project Build Discarder
+Finished at Fri Sep 04 09:01:58 UTC 2020. 1ms

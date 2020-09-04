@@ -44,7 +44,22 @@
       <globalSettings class="jenkins.mvn.DefaultGlobalSettingsProvider"/>
       <injectBuildVariables>false</injectBuildVariables>
     </hudson.tasks.Maven>
+    <hudson.tasks.Shell>
+      <command>echo ********************
+echo &quot;Desplegando el jar&quot;
+echo ********************
+
+java -jar /var/jenkins_home/workspace/maven-job/target/my-app-1.0-SNAPSHOT.jar</command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
   </builders>
-  <publishers/>
+  <publishers>
+    <hudson.tasks.junit.JUnitResultArchiver plugin="junit@1.32">
+      <testResults>target/surefire-reports/*.xml</testResults>
+      <keepLongStdio>false</keepLongStdio>
+      <healthScaleFactor>1.0</healthScaleFactor>
+      <allowEmptyResults>false</allowEmptyResults>
+    </hudson.tasks.junit.JUnitResultArchiver>
+  </publishers>
   <buildWrappers/>
 </project>
