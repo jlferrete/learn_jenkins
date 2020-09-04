@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-09-04 08:16:21.609 UTC</timestamp>
+  <md5sum>503cbe7a1de51c0f8f9adcb9313bf4d1</md5sum>
+  <fileName>Credential id=jlferrete name=jlferrete/******</fileName>
+  <usages>
+    <entry>
+      <string>maven-job</string>
+      <ranges>1-5</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

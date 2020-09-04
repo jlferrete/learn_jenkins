@@ -27,3 +27,16 @@ ssh -i remote-key remote_user@remote_host
 exit
 mysqldump -u root -h db_host -p1234 testdb > /tmp/db-1.sql
 exit
+cd var/jenkins_home/workspace/maven-job
+ls
+ls -l
+ls -l
+ls /target
+ls ~/target
+cd target
+ls -l
+cd..
+cd ..
+ls -l
+ls src/test/java/com/mycompany/app/
+exit
