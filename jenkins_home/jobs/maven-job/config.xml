@@ -54,6 +54,15 @@ java -jar /var/jenkins_home/workspace/maven-job/target/my-app-1.0-SNAPSHOT.jar</
     </hudson.tasks.Shell>
   </builders>
   <publishers>
+    <hudson.tasks.ArtifactArchiver>
+      <artifacts>target/*.jar</artifacts>
+      <allowEmptyArchive>false</allowEmptyArchive>
+      <onlyIfSuccessful>true</onlyIfSuccessful>
+      <fingerprint>false</fingerprint>
+      <defaultExcludes>true</defaultExcludes>
+      <caseSensitive>true</caseSensitive>
+      <followSymlinks>false</followSymlinks>
+    </hudson.tasks.ArtifactArchiver>
     <hudson.tasks.junit.JUnitResultArchiver plugin="junit@1.32">
       <testResults>target/surefire-reports/*.xml</testResults>
       <keepLongStdio>false</keepLongStdio>
