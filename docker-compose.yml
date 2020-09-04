@@ -1,7 +1,7 @@
 version: '3'
 services:
  jenkins:
-  container_name: jenkins
+  container_name: jenkinsclear
   image: jenkins/jenkins
   ports:
    - "8080:8080"
@@ -23,6 +23,19 @@ services:
    - "MYSQL_ROOT_PASSWORD=1234"
   volumes:
    - $PWD/db_data:/var/lib/mysql  
+  networks:
+   - net
+ git:
+  container_name: git-server
+  hostname: gitlab.example.com
+  ports:
+   - "443:443"
+   - "80:80"
+  volumes:
+   - "/srv/gitlab/config:/etc/gitlab"
+   - "/srv/gitlab/logs:/var/log/gitlab"
+   - "/srv/gitlab/data:/var/opt/gitlab"
+  image: gitlab/gitlab-ce
   networks:
    - net
 networks:

@@ -1,0 +1,20 @@
+Started by user [8mha:////4Gq8laDmf+gnjQJGcI3vmbay1HhhQwe+p+/DPRYsRBpMAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZu/dLi1CL9xJTczDwAawhpaMAAAAA=[0mjlferrete
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/backup-db-to-aws
+[SSH] script:
+DB_NAME="testdb"
+DB_HOST="db_host"
+DB_PASSWORD=**********
+
+DATE=$(date +%H-%M-%S)
+
+
+mysqldump -u root -h $DB_HOST -p$DB_PASSWORD $DB_NAME > /tmp/db-$DATE.sql
+
+
+[SSH] executing...
+
+[SSH] completed
+[SSH] exit-status: 0
+
+Finished: SUCCESS

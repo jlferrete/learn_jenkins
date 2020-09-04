@@ -1,32 +1,10 @@
-Started at Thu Sep 03 12:52:21 UTC 2020
+Started at Fri Sep 04 05:01:58 UTC 2020
+Processing backup-db-to-aws
+Offering backup-db-to-aws to Project Build Discarder
 Processing remote-task
 Offering remote-task to Project Build Discarder
 Processing Test
 Offering Test to Project Build Discarder
 Processing test-param
 Offering test-param to Project Build Discarder
-Finished at Thu Sep 03 12:52:21 UTC 2020. 29ms
-Started at Thu Sep 03 13:52:21 UTC 2020
-Processing remote-task
-Offering remote-task to Project Build Discarder
-Processing Test
-Offering Test to Project Build Discarder
-Processing test-param
-Offering test-param to Project Build Discarder
-Finished at Thu Sep 03 13:52:21 UTC 2020. 9ms
-Started at Thu Sep 03 14:52:21 UTC 2020
-Processing remote-task
-Offering remote-task to Project Build Discarder
-Processing Test
-Offering Test to Project Build Discarder
-Processing test-param
-Offering test-param to Project Build Discarder
-Finished at Thu Sep 03 14:52:21 UTC 2020. 1ms
-Started at Thu Sep 03 15:52:21 UTC 2020
-Processing remote-task
-Offering remote-task to Project Build Discarder
-Processing Test
-Offering Test to Project Build Discarder
-Processing test-param
-Offering test-param to Project Build Discarder
-Finished at Thu Sep 03 15:52:21 UTC 2020. 33ms
+Finished at Fri Sep 04 05:01:58 UTC 2020. 87ms
