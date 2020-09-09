@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-09-09 11:32:00.117 UTC</timestamp>
+  <md5sum>947ff69315567a094cc4dde2d5f3def7</md5sum>
+  <fileName>Credential id=git_creds name=josel.ferrete/******</fileName>
+  <usages>
+    <entry>
+      <string>maven-job</string>
+      <ranges>12</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

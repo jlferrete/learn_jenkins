@@ -1,0 +1,31 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<result plugin="junit@1.32">
+  <suites>
+    <suite>
+      <file>/var/jenkins_home/workspace/maven-job/target/surefire-reports/TEST-com.mycompany.app.AppTest.xml</file>
+      <name>com.mycompany.app.AppTest</name>
+      <duration>0.072</duration>
+      <time>0.072</time>
+      <enclosingBlocks/>
+      <enclosingBlockNames/>
+      <cases>
+        <case>
+          <duration>0.072</duration>
+          <className>com.mycompany.app.AppTest</className>
+          <testName>testAppMain</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>com.mycompany.app.AppTest</className>
+          <testName>testAppConstructor</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>0.072</duration>
+  <keepLongStdio>false</keepLongStdio>
+</result>

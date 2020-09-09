@@ -26,3 +26,37 @@ Offering Test to Project Build Discarder
 Processing test-param
 Offering test-param to Project Build Discarder
 Finished at Wed Sep 09 10:20:18 UTC 2020. 8ms
+Started at Wed Sep 09 11:20:18 UTC 2020
+Processing backup-db-to-aws
+Offering backup-db-to-aws to Project Build Discarder
+Processing job-dsl
+Offering job-dsl to Project Build Discarder
+Processing job_dsl_example
+Offering job_dsl_example to Project Build Discarder
+Processing maven-job
+Offering maven-job to Project Build Discarder
+Processing remote-task
+Offering remote-task to Project Build Discarder
+Processing Test
+Offering Test to Project Build Discarder
+Processing test-param
+Offering test-param to Project Build Discarder
+Finished at Wed Sep 09 11:20:18 UTC 2020. 14ms
+Started at Wed Sep 09 12:20:18 UTC 2020
+Processing backup-db-to-aws
+Offering backup-db-to-aws to Project Build Discarder
+Processing ENV
+Offering ENV to Project Build Discarder
+Processing job-dsl
+Offering job-dsl to Project Build Discarder
+Processing job_dsl_example
+Offering job_dsl_example to Project Build Discarder
+Processing maven-job
+Offering maven-job to Project Build Discarder
+Processing remote-task
+Offering remote-task to Project Build Discarder
+Processing Test
+Offering Test to Project Build Discarder
+Processing test-param
+Offering test-param to Project Build Discarder
+Finished at Wed Sep 09 12:20:18 UTC 2020. 2ms
