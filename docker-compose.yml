@@ -1,7 +1,7 @@
 version: '3'
 services:
  jenkins:
-  container_name: jenkinsclear
+  container_name: jenkins
   image: jenkins/jenkins
   ports:
    - "8080:8080"
@@ -14,6 +14,8 @@ services:
   image: remote-host
   build:
    context: centos7
+  volumes:
+   - $PWD/aws-s3.sh:/tmp/script.sh
   networks:
    - net 
  db_host:
@@ -25,18 +27,18 @@ services:
    - $PWD/db_data:/var/lib/mysql  
   networks:
    - net
- git:
-  container_name: git-server
-  hostname: gitlab.example.com
-  ports:
-   - "443:443"
-   - "80:80"
-  volumes:
-   - "/srv/gitlab/config:/etc/gitlab"
-   - "/srv/gitlab/logs:/var/log/gitlab"
-   - "/srv/gitlab/data:/var/opt/gitlab"
-  image: gitlab/gitlab-ce
-  networks:
-   - net
+# git:
+#  container_name: git-server
+#  hostname: gitlab.example.com
+#  ports:
+#   - "443:443"
+#   - "80:80"
+#  volumes:
+#   - "/srv/gitlab/config:/etc/gitlab"
+#   - "/srv/gitlab/logs:/var/log/gitlab"
+#   - "/srv/gitlab/data:/var/opt/gitlab"
+#  image: gitlab/gitlab-ce
+#  networks:
+#   - net
 networks:
  net:
