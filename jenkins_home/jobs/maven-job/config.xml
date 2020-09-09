@@ -69,6 +69,11 @@ java -jar /var/jenkins_home/workspace/maven-job/target/my-app-1.0-SNAPSHOT.jar</
       <healthScaleFactor>1.0</healthScaleFactor>
       <allowEmptyResults>false</allowEmptyResults>
     </hudson.tasks.junit.JUnitResultArchiver>
+    <hudson.tasks.Mailer plugin="mailer@1.32">
+      <recipients>josel.ferrete@s-dos.es</recipients>
+      <dontNotifyEveryUnstableBuild>false</dontNotifyEveryUnstableBuild>
+      <sendToIndividuals>false</sendToIndividuals>
+    </hudson.tasks.Mailer>
   </publishers>
   <buildWrappers/>
 </project>

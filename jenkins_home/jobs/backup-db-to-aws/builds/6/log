@@ -1,0 +1,20 @@
+Started by user [8mha:////4Gq8laDmf+gnjQJGcI3vmbay1HhhQwe+p+/DPRYsRBpMAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZu/dLi1CL9xJTczDwAawhpaMAAAAA=[0mjlferrete
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/backup-db-to-aws
+[SSH] script:
+DB_NAME="testdb"
+DB_HOST="db_host"
+AWS_KEY=**********
+BUCKET_NAME="jlferrete-jenkins-udemy"
+DB_PASSWORD=**********
+
+/tmp/script.sh $DB_HOST $DB_PASSWORD $DB_NAME $AWS_KEY $BUCKET_NAME
+
+
+[SSH] executing...
+Completed 1.8 KiB/1.8 KiB (1.9 KiB/s) with 1 file(s) remainingupload: ../../tmp/db-05-19-57.sql to s3://jlferrete-jenkins-udemy/db-05-19-57.sql
+
+[SSH] completed
+[SSH] exit-status: 0
+
+Finished: SUCCESS

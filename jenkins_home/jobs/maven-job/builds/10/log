@@ -1,0 +1,81 @@
+Started by user [8mha:////4Gq8laDmf+gnjQJGcI3vmbay1HhhQwe+p+/DPRYsRBpMAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZu/dLi1CL9xJTczDwAawhpaMAAAAA=[0mjlferrete
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/maven-job
+The recommended git tool is: NONE
+using credential jlferrete
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/jenkins-docs/simple-java-maven-app # timeout=10
+Fetching upstream changes from https://github.com/jenkins-docs/simple-java-maven-app
+ > git --version # timeout=10
+ > git --version # 'git version 2.11.0'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress -- https://github.com/jenkins-docs/simple-java-maven-app +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 0d85b7e1fd39bc6978511f92381aa10534ca4c1b (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 0d85b7e1fd39bc6978511f92381aa10534ca4c1b # timeout=10
+Commit message: "Amend README.md"
+ > git rev-list --no-walk 0d85b7e1fd39bc6978511f92381aa10534ca4c1b # timeout=10
+[maven-job] $ /var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/jenkins-maven/bin/mvn sa -B -DskipTests clean package
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.mycompany.app:my-app >----------------------
+[INFO] Building my-app 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.865 s
+[INFO] Finished at: 2020-09-04T10:24:28Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4J+Ja952T1TURFiTpnUfIvOnKIjF09BeAaM0qwfzYIB2AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Unknown lifecycle phase "sa". You must specify a valid lifecycle phase or a goal in the format <plugin-prefix>:<goal> or <plugin-group-id>:<plugin-artifact-id>[:<plugin-version>]:<goal>. Available lifecycle phases are: validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy, pre-clean, clean, post-clean, pre-site, site, post-site, site-deploy. -> [Help 1]
+[8mha:////4J+Ja952T1TURFiTpnUfIvOnKIjF09BeAaM0qwfzYIB2AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 
+[8mha:////4J+Ja952T1TURFiTpnUfIvOnKIjF09BeAaM0qwfzYIB2AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[8mha:////4J+Ja952T1TURFiTpnUfIvOnKIjF09BeAaM0qwfzYIB2AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[8mha:////4J+Ja952T1TURFiTpnUfIvOnKIjF09BeAaM0qwfzYIB2AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 
+[8mha:////4J+Ja952T1TURFiTpnUfIvOnKIjF09BeAaM0qwfzYIB2AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[8mha:////4J+Ja952T1TURFiTpnUfIvOnKIjF09BeAaM0qwfzYIB2AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/LifecyclePhaseNotFoundException
+Build step 'Invoke top-level Maven targets' marked build as failure
+Skipped archiving because build is not successful
+Recording test results
+ERROR: Step ‘Publish JUnit test result report’ failed: Test reports were found but none of them are new. Did leafNodes run? 
+For example, /var/jenkins_home/workspace/maven-job/target/surefire-reports/TEST-com.mycompany.app.AppTest.xml is 21 min old
+
+Sending e-mails to: josel.ferrete@s-dos.es
+ERROR: Couldn't connect to host, port: localhost, 25; timeout 60000
+com.sun.mail.util.MailConnectException: Couldn't connect to host, port: localhost, 25; timeout 60000;
+  nested exception is:
+	java.net.ConnectException: Connection refused (Connection refused)
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2210)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:722)
+	at javax.mail.Service.connect(Service.java:342)
+	at javax.mail.Service.connect(Service.java:222)
+	at javax.mail.Service.connect(Service.java:171)
+	at javax.mail.Transport.send0(Transport.java:230)
+	at javax.mail.Transport.send(Transport.java:100)
+	at hudson.tasks.MailSender.run(MailSender.java:130)
+	at hudson.tasks.Mailer.perform(Mailer.java:176)
+	at hudson.tasks.Mailer.perform(Mailer.java:139)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:741)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:690)
+	at hudson.model.Build$BuildExecution.post2(Build.java:186)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:635)
+	at hudson.model.Run.execute(Run.java:1919)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:428)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:607)
+	at com.sun.mail.util.SocketFetcher.createSocket(SocketFetcher.java:333)
+	at com.sun.mail.util.SocketFetcher.getSocket(SocketFetcher.java:214)
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2160)
+	... 18 more
+Finished: FAILURE
