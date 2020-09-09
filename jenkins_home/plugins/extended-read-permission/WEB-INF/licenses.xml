@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<l:dependencies xmlns:l='licenses' groupId='org.jvnet.hudson.plugins' artifactId='extended-read-permission' version='3.2'><l:dependency name='Jenkins Extended Read Permission Plugin' groupId='org.jvnet.hudson.plugins' artifactId='extended-read-permission' version='3.2' url='https://github.com/jenkinsci/extended-read-permission-plugin'><l:description>The Jenkins Plugins Parent POM Project</l:description></l:dependency></l:dependencies>

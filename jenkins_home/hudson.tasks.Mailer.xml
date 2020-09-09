@@ -2,8 +2,13 @@
 <hudson.tasks.Mailer_-DescriptorImpl plugin="mailer@1.32">
   <defaultSuffix></defaultSuffix>
   <hudsonUrl>http://localhost:8080/</hudsonUrl>
-  <useSsl>false</useSsl>
+  <authentication>
+    <username>AKIA4W2DYJF3XIDIB6DQ</username>
+    <password>{AQAAABAAAAAw4zI+TH+mcq23no0K21pJ019NJcFTH1n2Gf0CzeLRPlEzDMJbejn5qIFoK8CmVCiRvh7kfecv2Y5cHCeenXhgCg==}</password>
+  </authentication>
+  <smtpHost>email-smtp.eu-west-2.amazonaws.com</smtpHost>
+  <useSsl>true</useSsl>
   <useTls>false</useTls>
-  <smtpPort></smtpPort>
+  <smtpPort>465</smtpPort>
   <charset>UTF-8</charset>
 </hudson.tasks.Mailer_-DescriptorImpl>
