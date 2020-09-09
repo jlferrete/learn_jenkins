@@ -1,0 +1,19 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<javaposse.jobdsl.plugin.DescriptorImpl plugin="job-dsl@1.77">
+  <templateJobMap class="com.google.common.collect.HashMultimap" serialization="custom">
+    <com.google.common.collect.HashMultimap>
+      <default/>
+      <int>8</int>
+      <int>0</int>
+    </com.google.common.collect.HashMultimap>
+  </templateJobMap>
+  <generatedJobMap class="concurrent-hash-map">
+    <entry>
+      <string>job_dsl_example</string>
+      <javaposse.jobdsl.plugin.SeedReference>
+        <seedJobName>job-dsl</seedJobName>
+        <digest>73eedbd831dfcf9d0edcb8d5a183f41b</digest>
+      </javaposse.jobdsl.plugin.SeedReference>
+    </entry>
+  </generatedJobMap>
+</javaposse.jobdsl.plugin.DescriptorImpl>
