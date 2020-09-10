@@ -1,48 +1,4 @@
-Started at Wed Sep 09 09:20:18 UTC 2020
-Processing backup-db-to-aws
-Offering backup-db-to-aws to Project Build Discarder
-Processing maven-job
-Offering maven-job to Project Build Discarder
-Processing remote-task
-Offering remote-task to Project Build Discarder
-Processing Test
-Offering Test to Project Build Discarder
-Processing test-param
-Offering test-param to Project Build Discarder
-Finished at Wed Sep 09 09:20:18 UTC 2020. 115ms
-Started at Wed Sep 09 10:20:18 UTC 2020
-Processing backup-db-to-aws
-Offering backup-db-to-aws to Project Build Discarder
-Processing job-dsl
-Offering job-dsl to Project Build Discarder
-Processing job_dsl_example
-Offering job_dsl_example to Project Build Discarder
-Processing maven-job
-Offering maven-job to Project Build Discarder
-Processing remote-task
-Offering remote-task to Project Build Discarder
-Processing Test
-Offering Test to Project Build Discarder
-Processing test-param
-Offering test-param to Project Build Discarder
-Finished at Wed Sep 09 10:20:18 UTC 2020. 8ms
-Started at Wed Sep 09 11:20:18 UTC 2020
-Processing backup-db-to-aws
-Offering backup-db-to-aws to Project Build Discarder
-Processing job-dsl
-Offering job-dsl to Project Build Discarder
-Processing job_dsl_example
-Offering job_dsl_example to Project Build Discarder
-Processing maven-job
-Offering maven-job to Project Build Discarder
-Processing remote-task
-Offering remote-task to Project Build Discarder
-Processing Test
-Offering Test to Project Build Discarder
-Processing test-param
-Offering test-param to Project Build Discarder
-Finished at Wed Sep 09 11:20:18 UTC 2020. 14ms
-Started at Wed Sep 09 12:20:18 UTC 2020
+Started at Thu Sep 10 09:52:22 UTC 2020
 Processing backup-db-to-aws
 Offering backup-db-to-aws to Project Build Discarder
 Processing ENV
@@ -59,8 +15,8 @@ Processing Test
 Offering Test to Project Build Discarder
 Processing test-param
 Offering test-param to Project Build Discarder
-Finished at Wed Sep 09 12:20:18 UTC 2020. 2ms
-Started at Thu Sep 10 04:52:23 UTC 2020
+Finished at Thu Sep 10 09:52:22 UTC 2020. 3ms
+Started at Thu Sep 10 10:52:22 UTC 2020
 Processing backup-db-to-aws
 Offering backup-db-to-aws to Project Build Discarder
 Processing ENV
@@ -77,8 +33,8 @@ Processing Test
 Offering Test to Project Build Discarder
 Processing test-param
 Offering test-param to Project Build Discarder
-Finished at Thu Sep 10 04:52:23 UTC 2020. 114ms
-Started at Thu Sep 10 05:52:22 UTC 2020
+Finished at Thu Sep 10 10:52:22 UTC 2020. 4ms
+Started at Thu Sep 10 11:52:22 UTC 2020
 Processing backup-db-to-aws
 Offering backup-db-to-aws to Project Build Discarder
 Processing ENV
@@ -95,8 +51,8 @@ Processing Test
 Offering Test to Project Build Discarder
 Processing test-param
 Offering test-param to Project Build Discarder
-Finished at Thu Sep 10 05:52:23 UTC 2020. 63ms
-Started at Thu Sep 10 06:52:23 UTC 2020
+Finished at Thu Sep 10 11:52:22 UTC 2020. 4ms
+Started at Thu Sep 10 12:52:22 UTC 2020
 Processing backup-db-to-aws
 Offering backup-db-to-aws to Project Build Discarder
 Processing ENV
@@ -113,8 +69,8 @@ Processing Test
 Offering Test to Project Build Discarder
 Processing test-param
 Offering test-param to Project Build Discarder
-Finished at Thu Sep 10 06:52:23 UTC 2020. 44ms
-Started at Thu Sep 10 07:52:22 UTC 2020
+Finished at Thu Sep 10 12:52:22 UTC 2020. 8ms
+Started at Thu Sep 10 13:52:22 UTC 2020
 Processing backup-db-to-aws
 Offering backup-db-to-aws to Project Build Discarder
 Processing ENV
@@ -131,8 +87,8 @@ Processing Test
 Offering Test to Project Build Discarder
 Processing test-param
 Offering test-param to Project Build Discarder
-Finished at Thu Sep 10 07:52:22 UTC 2020. 40ms
-Started at Thu Sep 10 08:52:22 UTC 2020
+Finished at Thu Sep 10 13:52:22 UTC 2020. 1ms
+Started at Thu Sep 10 14:52:22 UTC 2020
 Processing backup-db-to-aws
 Offering backup-db-to-aws to Project Build Discarder
 Processing ENV
@@ -149,4 +105,40 @@ Processing Test
 Offering Test to Project Build Discarder
 Processing test-param
 Offering test-param to Project Build Discarder
-Finished at Thu Sep 10 08:52:22 UTC 2020. 4ms
+Finished at Thu Sep 10 14:52:22 UTC 2020. 11ms
+Started at Thu Sep 10 15:52:22 UTC 2020
+Processing backup-db-to-aws
+Offering backup-db-to-aws to Project Build Discarder
+Processing ENV
+Offering ENV to Project Build Discarder
+Processing job-dsl
+Offering job-dsl to Project Build Discarder
+Processing job_dsl_example
+Offering job_dsl_example to Project Build Discarder
+Processing maven-job
+Offering maven-job to Project Build Discarder
+Processing remote-task
+Offering remote-task to Project Build Discarder
+Processing Test
+Offering Test to Project Build Discarder
+Processing test-param
+Offering test-param to Project Build Discarder
+Finished at Thu Sep 10 15:52:22 UTC 2020. 3ms
+Started at Thu Sep 10 16:52:22 UTC 2020
+Processing backup-db-to-aws
+Offering backup-db-to-aws to Project Build Discarder
+Processing ENV
+Offering ENV to Project Build Discarder
+Processing job-dsl
+Offering job-dsl to Project Build Discarder
+Processing job_dsl_example
+Offering job_dsl_example to Project Build Discarder
+Processing maven-job
+Offering maven-job to Project Build Discarder
+Processing remote-task
+Offering remote-task to Project Build Discarder
+Processing Test
+Offering Test to Project Build Discarder
+Processing test-param
+Offering test-param to Project Build Discarder
+Finished at Thu Sep 10 16:52:22 UTC 2020. 3ms

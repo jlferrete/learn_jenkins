@@ -6,7 +6,7 @@
   <usages>
     <entry>
       <string>backup-db-to-aws</string>
-      <ranges>2-13</ranges>
+      <ranges>2-14</ranges>
     </entry>
   </usages>
   <facets/>
