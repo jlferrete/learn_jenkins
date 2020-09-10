@@ -6,12 +6,30 @@
   <description></description>
   <properties>
     <jenkins.security.ApiTokenProperty>
+      <apiToken>{AQAAABAAAAAwKUKpZIpFpCEUy+LPwH5tN8XIC5cdNFV6G1iYwTGgVKn/8Bc/PNoYWbwo6b06eS6RtFv6o92OxstRyhKA5Rxgug==}</apiToken>
       <tokenStore>
-        <tokenList/>
+        <tokenList>
+          <jenkins.security.apitoken.ApiTokenStore_-HashedToken>
+            <uuid>2028ec11-977e-464b-bf4a-9d90d5464d2b</uuid>
+            <name>Legacy Token</name>
+            <creationDate>2020-09-10 07:38:48.906 UTC</creationDate>
+            <value>
+              <version>10</version>
+              <hash>d1c50912a529f70d40fdbd79d459ad8ee3efeb745dcb907a6b7e3b01d777b702</hash>
+            </value>
+          </jenkins.security.apitoken.ApiTokenStore_-HashedToken>
+        </tokenList>
       </tokenStore>
     </jenkins.security.ApiTokenProperty>
     <com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty plugin="credentials@2.3.13">
-      <domainCredentialsMap class="hudson.util.CopyOnWriteMap$Hash"/>
+      <domainCredentialsMap class="hudson.util.CopyOnWriteMap$Hash">
+        <entry>
+          <com.cloudbees.plugins.credentials.domains.Domain>
+            <specifications/>
+          </com.cloudbees.plugins.credentials.domains.Domain>
+          <java.util.concurrent.CopyOnWriteArrayList/>
+        </entry>
+      </domainCredentialsMap>
     </com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty>
     <hudson.tasks.Mailer_-UserProperty plugin="mailer@1.32">
       <emailAddress>josel.ferrete@s-dos.es</emailAddress>

@@ -1,0 +1,22 @@
+Started by user [8mha:////4Hs5V3HSKAOWoFORfuadvISZCm3Xh1v1MnWo1Q08v2eTAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL9rNS87My8YgDGtiJjwgAAAA==[0mjenkins
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/backup-db-to-aws
+[SSH] script:
+DB_NAME="testdb"
+DB_HOST="db_host"
+AWS_KEY=**********
+BUCKET_NAME="jenkins-udemy"
+DB_PASSWORD=**********
+
+/tmp/script.sh $DB_HOST $DB_PASSWORD $DB_NAME $AWS_KEY $BUCKET_NAME
+
+
+[SSH] executing...
+upload failed: ../../tmp/db-09-32-15.sql to s3://jenkins-udemy/db-09-32-15.sql An error occurred (AccessDenied) when calling the PutObject operation: Access Denied
+
+[SSH] completed
+[SSH] exit-status: 1
+
+Build step 'Execute shell script on remote host using ssh' marked build as failure
+Sending e-mails to: josel.ferrete@s-dos.es
+Finished: FAILURE

@@ -1,0 +1,15 @@
+Started by user [8mha:////4Hs5V3HSKAOWoFORfuadvISZCm3Xh1v1MnWo1Q08v2eTAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL9rNS87My8YgDGtiJjwgAAAA==[0mjenkins
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/ENV
+[ENV] $ /bin/sh -xe /tmp/jenkins4229978314698662611.sh
++ echo BUILD NUMBER : 2
+BUILD NUMBER : 2
++ echo BUILD URL : http://jenkins.local:8080/job/ENV/2/
+BUILD URL : http://jenkins.local:8080/job/ENV/2/
++ echo JOB NAME : ENV
+JOB NAME : ENV
++ echo JAVA HOME : /usr/local/openjdk-8
+JAVA HOME : /usr/local/openjdk-8
++ echo JENKINS URL : http://jenkins.local:8080/
+JENKINS URL : http://jenkins.local:8080/
+Finished: SUCCESS

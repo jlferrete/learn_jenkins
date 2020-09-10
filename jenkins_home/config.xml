@@ -68,7 +68,16 @@
         </permissions>
         <assignedSIDs>
           <sid>admin</sid>
+          <sid>jenkins</sid>
         </assignedSIDs>
+      </role>
+      <role name="trigger-jobs" pattern=".*">
+        <permissions>
+          <permission>hudson.model.Hudson.Read</permission>
+          <permission>hudson.model.Item.Read</permission>
+          <permission>hudson.model.Item.Build</permission>
+        </permissions>
+        <assignedSIDs/>
       </role>
     </roleMap>
     <roleMap type="slaveRoles"/>
@@ -79,9 +88,7 @@
           <permission>hudson.model.Item.Read</permission>
           <permission>hudson.model.Item.Build</permission>
         </permissions>
-        <assignedSIDs>
-          <sid>Mario</sid>
-        </assignedSIDs>
+        <assignedSIDs/>
       </role>
     </roleMap>
   </authorizationStrategy>

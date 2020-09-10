@@ -1,7 +1,10 @@
-Started at Fri Sep 04 10:20:10 UTC 2020
+Started at Thu Sep 10 08:14:59 UTC 2020
 Checking backup-db-to-aws
+Checking ENV
+Checking job-dsl
+Checking job_dsl_example
 Checking maven-job
 Checking remote-task
 Checking Test
 Checking test-param
-Finished at Fri Sep 04 10:20:10 UTC 2020. 3ms
+Finished at Thu Sep 10 08:14:59 UTC 2020. 91ms
